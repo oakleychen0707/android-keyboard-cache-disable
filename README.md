@@ -43,3 +43,10 @@ edtUserPwd.setAutofillHints(null)
 ViewCompat.setImportantForAutofill(edtUserPwd, View.IMPORTANT_FOR_AUTOFILL_NO)
 edtUserPwd.setPrivateImeOptions("disableSuggestions")
 edtUserPwd.typeface = originalUserPwdTypeface // 設回原本字體
+```
+
+---
+
+## 總結
+
+此範例作為資安檢測修正紀錄與分享，歡迎參考與建議改進。
